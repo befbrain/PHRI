@@ -1,5 +1,6 @@
 body{
   color: #f1f1f2;
+  background-color: #232c33
 }
 
 h3 {
@@ -73,6 +74,7 @@ a {
 }
 
 .nav-bar {
+
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +86,6 @@ a {
           align-items: center;
   background: #2c3840;
   height: 75px;
-  z-index: 1;
   width: 100%;
 }
 
@@ -93,6 +94,7 @@ a {
 }
 
 .nav-bar .logo {
+  max-width: 500px;
   max-height: 75px;
 }
 .nav-bar a {
@@ -289,6 +291,11 @@ a {
 .small-links, .small-links li {
   background: #2c3840;
 }
+
+.promo-hero { 
+  z-index: -1;
+}
+
 
 @media screen and (min-width: 1378px) {
   .small-links {

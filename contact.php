@@ -31,6 +31,11 @@
 								<div>Phone: +1.609.902.7496</div>
 								<div>Email: <a class="href-mailto" href="mailto:Rebecca@PrincetonHRInsight.com">Rebecca@PrincetonHRInsight.com</a></div>
 								<div>Postal: PO Box 1533, Princeton, NJ 08542</div>
+								<div>
+						            <a target="_blank" href="http://linkedin.com/in/rebecca-oettinger-feder">
+						              <img src="images/li_profile2.png">
+						            </a>
+						         </div>
 							</p>
 							
 						</span>

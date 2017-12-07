@@ -10,7 +10,7 @@
 <body onload="OfferingCardAndPromoHeight()" onresize="OfferingCardAndPromoHeight()">
 <!--header -->
 	<header>
-		<?php include 'common/header.html'; ?>
+		<?php include 'common/header-home.html'; ?>
 	</header>
 <!--content-->
 	<div class="promo-hero promo-hero-bg">
@@ -245,15 +245,15 @@ Princeton HR Insight helps unleash employees' ability to drive company success b
 			$(".offering-card-real-text").height(ContentHeight);
 		}
 		function PromoHeight() {
-			var viewPortWidth = window.innerWidth;;
-			var MenuHeight = $("header").height();
+			var viewPortWidth = window.innerWidth;
 			if(viewPortWidth >= 720) {
-				$('.promo-hero').height($(window).height() - MenuHeight);
+				$('.promo-hero').height($(window).height());
 				$('.promo-hero-content').height($(".promo-hero-text").height() + 32);
+				$('.promo-hero').css('margin-top', '-' + $('.nav-bar').height() + 'px');
 			}
 			if(viewPortWidth <= 719) {
-				$('.promo-hero-content').height($(window).height() - MenuHeight);
-				$('.promo-hero').height($(window).height() - MenuHeight);
+				$('.promo-hero-content').height($(window).height());
+				$('.promo-hero').height($(window).height());
 			}
 		}
 	</script>
